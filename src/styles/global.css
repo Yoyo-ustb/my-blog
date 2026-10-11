@@ -104,10 +104,16 @@ pre > code {
 	all: unset;
 }
 blockquote {
-	border-left: 4px solid var(--accent);
-	padding: 0 0 0 20px;
-	margin: 0;
-	font-size: 1.333em;
+	margin: 0.4em 0 1.6em;
+	padding: 0.15em 0 0.15em 1em;
+	border-left: 3px solid var(--accent);
+	color: rgb(var(--gray));
+	font-size: 0.92em;
+	font-style: italic;
+	line-height: 1.6;
+}
+.prose blockquote p {
+	margin-bottom: 0;
 }
 hr {
 	border: none;
