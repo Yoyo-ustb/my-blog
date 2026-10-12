@@ -1,0 +1,30 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="WeChat" description="Scan to find me on WeChat." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>WeChat</h1>
+			<p>Scan this code with WeChat, or long-press it and choose to recognize the QR code.</p>
+			<img src="/wechat-qr.png" alt="WeChat QR code" width="180" height="180" />
+		</main>
+		<Footer />
+	</body>
+</html>
+
+<style>
+	img {
+		display: block;
+		width: 180px;
+		height: 180px;
+		margin: 1.5em 0;
+	}
+</style>
